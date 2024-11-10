@@ -4,3 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+num = "0.4"           # For numerical operations
+plotters = "0.3"      # For plotting functionality
+
+[[bin]]
+name = "main"
+path = "src/main.rs"  # Original Tonelli-Shanks file
+
+[[bin]]
+name = "generate_points"
+path = "src/generate_points.rs"  # New plotting file
+
